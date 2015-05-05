@@ -16,7 +16,7 @@ RUN apt-get update && apt-get -y upgrade \
 
 RUN update-locale LANG="en_US.UTF-8"
 
-RUN apt-get install -y openssh-server supervisor mysql-client && apt-get clean
+RUN apt-get install -y openssh-server supervisor rsyslog mysql-client && apt-get clean
 
 RUN mkdir -p /var/run/sshd
 
