@@ -19,4 +19,4 @@ ADD assets/supervisord.conf /etc/supervisor/supervisord.conf
 
 EXPOSE 22
 
-CMD echo "root:$password" | chpasswd; /usr/sbin/sshd -D
+CMD echo "root:${ROOT_PASSWORD}" | chpasswd; /usr/sbin/sshd -D
