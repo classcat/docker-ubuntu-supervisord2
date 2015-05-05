@@ -1,8 +1,12 @@
 # Ubuntu Vivid/Trusty Supervisord 2nd Edition
 
-## Overview
+## Summary
 
-Ubuntu Vivid/Trusty basic images maintained by ClassCat.
+Ubuntu Vivid/Trusty basic images.
+
+## Maintainer
+
+ClassCat Co.,Ltd. ( http://www.classcat.com/ )
 
 ## TAGS
 
