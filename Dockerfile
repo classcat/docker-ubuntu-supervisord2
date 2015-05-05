@@ -3,7 +3,7 @@ MAINTAINER ClassCat Co.,Ltd. <support@classcat.com>
 
 ########################################################################
 # ClassCat/Ubuntu-Supervisord2 Dockerfile
-#   Maintained by ClassCat Co.,Ltd (http://www.classcat.com/)
+#   Maintained by ClassCat Co.,Ltd ( http://www.classcat.com/ )
 ########################################################################
 
 #--- HISTORY -----------------------------------------------------------
