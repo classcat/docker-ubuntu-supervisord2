@@ -30,15 +30,15 @@ $ sudo docker pull classcat/ubuntu-supervisord2
 
 ```
 $ sudo docker run -d --name (container name) -p 2022:22 \  
-  -e password=(root password) classcat/ubuntu-supservisord2
+  -e ROOT_PASSWORD=(root password) classcat/ubuntu-supservisord2
 ```
 
 ### example
 
 ```
 $ sudo docker run -d --name myubuntu -p 2022:22 \  
-  -e password=mypassword classcat/ubuntu-supervisord2
+  -e ROOT_PASSWORD=mypassword classcat/ubuntu-supervisord2
 
 $ sudo docker run -d --name myubuntu -p 2022:22 \  
-  -e password=mypassword classcat/ubuntu-supervisord2:trusty
+  -e ROOT_PASSWORD=mypassword classcat/ubuntu-supervisord2:trusty
 ```
