@@ -1,4 +1,4 @@
-FROM ubuntu:vivid
+FROM ubuntu:trusty
 MAINTAINER Masashi Okumura <masao@classcat.com>
 
 RUN apt-get update && apt-get -y upgrade \
