@@ -3,7 +3,7 @@ MAINTAINER ClassCat Co.,Ltd. <support@classcat.com>
 
 ########################################################################
 # ClassCat/Ubuntu-Supervisord2 Dockerfile
-#   Maintained by ClassCat Co.,Ltd. (@Tokyo, Japan)
+#   Maintained by ClassCat Co.,Ltd (http://www.classcat.com/)
 ########################################################################
 
 #--- HISTORY -----------------------------------------------------------
@@ -11,11 +11,12 @@ MAINTAINER ClassCat Co.,Ltd. <support@classcat.com>
 #-----------------------------------------------------------------------
 
 RUN apt-get update && apt-get -y upgrade \
-  && apt-get install -y language-pack-en language-pack-en-base 
+  && apt-get install -y language-pack-en language-pack-en-base \
+  && apt-get install -y language-pack-ja language-pack-ja-base
 
 RUN update-locale LANG="en_US.UTF-8"
 
-RUN apt-get install -y openssh-server supervisor mysql-client
+RUN apt-get install -y openssh-server supervisor mysql-client && apt-get clean
 
 RUN mkdir -p /var/run/sshd
 
